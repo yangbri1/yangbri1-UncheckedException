@@ -13,6 +13,8 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
-
+        // throwing nullptr exception
+        String str = null;
+        System.out.println(str.length());
     }
 }
